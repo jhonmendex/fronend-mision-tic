@@ -24,6 +24,8 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -101,6 +103,24 @@
             </div>
             <div class="section-img">
               <img src="images/illustration-your-users.svg" alt="users" />
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-info">
+              <h2>Registro de usuarios</h2>
+              <div id="registro-usuarios">
+                <form action="">
+                  <input
+                    id="nomUsu"
+                    type="text"
+                    placeholder="Digite su nombre"
+                  />
+                  <input type="text" placeholder="Digite su apellido" />
+                  <input type="text" placeholder="Digite su edad" />
+                  <input type="text" placeholder="Digite su correo" />
+                  <button onclick="registro()">Registrar</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
